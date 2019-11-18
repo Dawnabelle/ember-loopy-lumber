@@ -1,7 +1,9 @@
-<h1>Loopy Lumber Co</h1>
-
-{{#link-to "production"}}Production{{/link-to}}
+<nav class="title">
+  <h1>Loopy Lumber Co</h1>
+</nav>
 
 {{!-- outlet shows where the header will appearchild template will appear --}}
-
-{{outlet}}
+<main>
+  {{outlet}}
+  {{#link-to "production"}}Production{{/link-to}}
+</main>
